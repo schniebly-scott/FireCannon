@@ -1,0 +1,17 @@
+name: FCannon
+version: 2.0
+main: com.scottschnieders.FCannon.Main
+description: This is a fire cannon
+api-version: 1.15
+
+commands:
+  fc:
+    description: it fires a fireball
+    usage: /<command> [optionalParam]
+    permission: staff.fc
+    permission-message: Git good son 
+    
+permissions:
+  staff.fc:
+    description: allows fc command
+    default: op
